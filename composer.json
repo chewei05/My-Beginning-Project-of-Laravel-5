@@ -1,0 +1,35 @@
+{
+    "name": "chewei05/my-beginning-project-of-laravel-5",
+    "description": "My beginning project of Laravel 5",
+	"version": "0.0.1",
+    "require": {
+        "recca0120/laravel-tracy": "^1.8.5",
+        "caouecs/laravel-lang": "~3.0",
+        "laravelcollective/html": "^5.4.0",
+        "jeroennoten/laravel-adminlte": "^1.19",
+        "chewei05/laravel-adminlte-lang": "^1.0.0",
+        "chewei05/crud-generator-template": "^0.0.1"
+    },
+    "require-dev": {
+        "appzcoder/crud-generator": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chewei Hu",
+            "email": "cheweihu@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"CheweiHu\\MyBeginningProjectOfLaravel5\\": "src/"
+		}
+    },
+    "scripts": {
+        "post-root-package-install": [
+        ],
+        "post-install-cmd": [
+        ]
+    }
+}
