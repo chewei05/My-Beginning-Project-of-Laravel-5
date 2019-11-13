@@ -1,7 +1,7 @@
 {
     "name": "chewei05/my-beginning-project-of-laravel-5",
     "description": "My beginning project of Laravel 5",
-	"version": "0.0.1",
+	"version": "0.0.2",
     "require": {
         "recca0120/laravel-tracy": "^1.8.5",
         "caouecs/laravel-lang": "~3.0",
@@ -11,7 +11,7 @@
         "chewei05/crud-generator-template": "^0.0.1"
     },
     "require-dev": {
-        "appzcoder/crud-generator": "^2.0"
+        "appzcoder/crud-generator": ">=2.0"
     },
     "license": "MIT",
     "authors": [
